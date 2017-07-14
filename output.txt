@@ -1,0 +1,20 @@
+#### OUTPUT ####
+
+ARTICLE POPULARITY:
+> Candidate is jerk, alleges rival - 342102 requests
+> Bears love berries, alleges bear - 256365 requests
+> Bad things gone, say good people - 171762 requests
+> Goats eat Google's lawn - 85775 requests
+> Trouble for troubled troublemakers - 85679 requests
+> There are a lot of bears - 85392 requests
+> Balloon goons doomed - 85387 requests
+> Media obsessed with bears - 85273 requests
+
+AUTHOR POPULARITY:
+> Ursula La Multa - 512805 requests
+> Rudolf von Treppenwitz - 427781 requests
+> Anonymous Contributor - 171762 requests
+> Markoff Chaney - 85387 requests
+
+DAY WITH REQUEST ERROR > 1%:
+> July 17, 2016 - 2.3 %
