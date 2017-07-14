@@ -4,34 +4,34 @@ Create an __internal__ reporting tool for a newspaper site. The tool is written 
 The relational databse contains 3 tables:
 - articles
 
-Columns | Type
-------- | ----
-author | integer
-title | text
-slug | text
-lead | text
-body | text
-time | timestamp with time zone
+Columns | Type | Desc
+------- | ---- | ----
+author | integer | author ID
+title | text | article's title
+slug | text | article's slug
+lead | text | article's lead sentence
+body | text | article's body
+time | timestamp with time zone | when the article is added to the database
 id | integer
 
 - authors
 
-Columns | Type
-------- | ----
-name | text
-bio | text
-id | integer
+Columns | Type | Desc
+------- | ---- | ----
+name | text | author's full name
+bio | text | author's biographical infomation in a sentence
+id | integer | author ID
 
 - log
 
-Columns | Type
-------- | ----
-apath | text
-ip | inet
-method | text
-status | text
-time | timestamp with time zone
-id | integer
+Columns | Type | Desc
+------- | ---- | ----
+path | text | the path requested
+ip | inet | IP address of the requesting machine
+method | text | resquest method
+status | text | request status
+time | timestamp with time zone | when the request is received
+id | integer | request's ID
 ## Insights to extract
 - Articles' popularity (measured by number of requests)
 - Authors' popularity (measured by number of requests for their articles)
