@@ -36,7 +36,8 @@ id | integer | request's id number
 - Articles' popularity (measured by number of requests)
 - Authors' popularity (measured by number of requests for their articles)
 - Days on which more than 1% of requests lead to errors
-
+## Program's general description
+The Python script `sql-report.py` makes use of Python DB-API psycopg2 to query data from PostgreSQL database. To minimise the number of queries used, each insight above is drawn using only one SQL query. The answer is then printed out in plain text to the terminal window that calls the script.
 ## Installation
 1. Follow this [guide](https://goo.gl/Nx5u8L) to install VirtualBox and configure it with Vagrant.
 2. Then follow this [guide](https://goo.gl/NPiiyV) to download the data and create the *__news__* database
