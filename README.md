@@ -3,6 +3,7 @@ Create an __internal__ reporting tool for a newspaper site. The tool is written 
 ## Table schemas
 The relational databse contains 3 tables:
 - articles
+
 Columns | Type
 ------- | ----
 author | integer
@@ -14,6 +15,7 @@ time | timestamp with time zone
 id | integer
 
 - authors
+
 Columns | Type
 ------- | ----
 name | text
@@ -21,6 +23,7 @@ bio | text
 id | integer
 
 - log
+
 Columns | Type
 ------- | ----
 apath | text
