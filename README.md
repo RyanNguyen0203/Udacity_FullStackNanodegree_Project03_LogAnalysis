@@ -12,7 +12,7 @@ slug | text | article's slug
 lead | text | article's lead sentence
 body | text | article's body
 time | timestamp with time zone | when the article is added to the database
-id | integer
+id | integer | article's id number
 
 - authors
 
@@ -20,7 +20,7 @@ Columns | Type | Desc
 ------- | ---- | ----
 name | text | author's full name
 bio | text | author's biographical infomation in a sentence
-id | integer | author ID
+id | integer | author's id number
 
 - log
 
@@ -31,7 +31,7 @@ ip | inet | IP address of the requesting machine
 method | text | resquest method
 status | text | request status
 time | timestamp with time zone | when the request is received
-id | integer | request's ID
+id | integer | request's id number
 ## Insights to extract
 - Articles' popularity (measured by number of requests)
 - Authors' popularity (measured by number of requests for their articles)
