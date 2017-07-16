@@ -33,8 +33,8 @@ status | text | request status
 time | timestamp with time zone | when the request is received
 id | integer | request's id number
 ## Insights to extract
-- Articles' popularity (measured by number of requests)
-- Authors' popularity (measured by number of requests for their articles)
+- Top 3 most popular articles (measured by number of requests)
+- Top 3 most popular authors (measured by number of requests for their articles)
 - Days on which more than 1% of requests lead to errors
 ## Program's general description
 The Python script `sql-report.py` makes use of Python DB-API psycopg2 to query data from PostgreSQL database. To minimise the number of queries used, each insight above is drawn using only one SQL query. The answer is then printed out in plain text to the terminal window that calls the script.
